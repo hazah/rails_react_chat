@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  channel: one
+  reply_to: 
+  content: Message
+
+two:
+  user: two
+  channel: one
+  reply_to: one
+  content: Reply

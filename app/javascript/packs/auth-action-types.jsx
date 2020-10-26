@@ -1,0 +1,5 @@
+export const REQUEST = "AUTH_REQUEST"
+export const SUCCESS = "AUTH_SUCCESS"
+export const FAILURE = "AUTH_FAILURE"
+export const LOGOUT = "AUTH_LOGOUT"
+export const REMOVE_ERRORS = "REMOVE_ERRORS"

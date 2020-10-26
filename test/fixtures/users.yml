@@ -1,0 +1,9 @@
+<% cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost %>
+
+one:
+  email: <%= Faker::Internet.email name: 'one' %>
+  password_digest: <%= BCrypt::Password.create('password', cost: cost) %>
+
+two:
+  email: <%= Faker::Internet.email name: 'two' %>
+  password_digest: <%= BCrypt::Password.create('password', cost: cost) %>
